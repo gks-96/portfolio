@@ -12,7 +12,9 @@ export default function SubmitBtn() {
     active-scale:105
     hover:bg-gray-950
     disabled:scale-100
-    disabled:bg-opacity-65"type="submit"
+    disabled:bg-opacity-65
+    dark:bg-white
+     dark:bg-opacity-10"type="submit"
     disabled={pending}>
         {
             pending ? (

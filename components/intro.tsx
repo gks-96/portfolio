@@ -99,7 +99,9 @@ export default function Intro() {
          active:scale-105
          transition
          cursor-pointer
-         border border-black/10"
+         border border-black/10
+         dark:bg-white/10
+         dark:text-white/60"
          href="/Resume.pdf"
         //  download={true}
         > Download CV {" "} <HiDownload
@@ -112,7 +114,9 @@ export default function Intro() {
           active:scale-105
           transition
           cursor-pointer
-          border border-black/10"
+          border border-black/10
+          dark:bg-white/10
+          dark:text-white/60"
           href="https://www.linkedin.com/in/gurkirat-guliani/"
         > <BsLinkedin/>
         </a>
@@ -125,8 +129,11 @@ export default function Intro() {
           transition
           hover:text-gray-950
           cursor-pointer
-          border border-black/10"
+          border border-black/10
+          dark:bg-white/10
+          dark:text-white/60"
           href="https://github.com/gks-96"
+         
         > <FaGithubSquare/>
         </a>
         <a  className="bg-white 
@@ -138,7 +145,9 @@ export default function Intro() {
           transition
           hover:text-gray-950
           cursor-pointer
-          border border-black/10"
+          border border-black/10
+          dark:bg-white/10
+          dark:text-white/60"
           href="https://stackoverflow.com/users/15318227/gurkirat-singh-guliani"
         > <FaStackOverflow/>
         </a>

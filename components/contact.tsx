@@ -31,14 +31,14 @@ export default function Contact() {
         once:true,
      }}>
     <SectionHeading> Contact Me</SectionHeading>
-    <p className ="text-gray-700 "> Please contact me directly at 
+    <p className ="text-gray-700  dark:text-white/80 "> Please contact me directly at 
         <a className="underline" 
           href="mailto:gurkiratguliani@gmail.com"> gurkiratguliani@gmail.com 
         </a> {" "}
         or through this form 
     </p>
 
-      <form className="mt-10 flex flex-col"
+      <form className="mt-10 flex flex-col dark:text-black "
       // 
       action={async( formData)  =>{
          console.log(formData);
@@ -52,13 +52,15 @@ export default function Contact() {
          toast.success("Email sent successfully");
 
       }}>
-        <input  className="h-14 px-4 rounded-lg borderBlack"
+        <input  className="h-14 px-4 rounded-lg borderBlack
+         dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity:100 transition-all dark:outline-none"
         type="email"
         name="senderEmail"
         required 
         maxLength={500}
          placeholder="Your email" /> 
-        <textarea className="h-52 my-3 rounded-lg borderBlack p-4"
+        <textarea className="h-52 my-3 rounded-lg borderBlack p-4
+        dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity:100 transition-all dark:outline-none"
         name="senderMessage"
         required 
         maxLength={5000}
