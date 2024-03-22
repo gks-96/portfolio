@@ -16,7 +16,7 @@ import {useSectionInView} from '@/lib/hooks'
 export default function Intro() {
 
    const{ ref } = useSectionInView("Home",0.5);
-
+   const{ setActiveSection} = useActiveSectionContext(); 
   return (
     <section 
     ref = {ref} 
@@ -85,7 +85,10 @@ export default function Intro() {
          hover:scale-110
          hover:bg-gray-950
          active:scale-105
-         transition" > Contact me here <BsArrowRight
+         transition" 
+         onClick = {() => {
+          setActiveSection("Contact");
+         }}> Contact me here <BsArrowRight
           className="opacity-70
           group-hover:translate-x-1 transition"/></Link>
         <a  className="group bg-white
