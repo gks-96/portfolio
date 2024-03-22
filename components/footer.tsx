@@ -7,7 +7,7 @@ export default function footer() {
             &copy; 2024 Gurkirat. All rights reserved
         </small>
         <p  className="text-xs">
-            <span className="font-semibold" > About this website: </span> built with React & Next.js(App Router & Server Actions),
+            <span className="font-semibold" > About this website: </span> built with React ,Next.js(App Router , Server Actions),
             Typecript,Tailwind CSS , Framer Motion, React Email, Resent, Toaster, Vercel Hosting
         </p>
     </footer>
