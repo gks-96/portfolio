@@ -8,7 +8,7 @@ import { useActiveSectionContext } from '@/context/active-section-context';
 import { useEffect } from 'react';
 import {useSectionInView} from "@/lib/hooks"
 
-export default function about() {
+export default function About() {
 
     const {ref} = useSectionInView("About")
     
