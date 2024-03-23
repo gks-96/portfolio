@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import nasaImg from "@/public/NASACompetition.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import metilda from "@/public/MeTILDA.png"
+import portfolioImg from "@/public/Portfolio.png";
 
 export const links = [
   {
@@ -86,13 +87,13 @@ export const projectsData = [
     tags: ["Python", "FIRMS", "WorldWind"],
     imageUrl: nasaImg,
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "Portfolio",
+    description:
+      "Personal portfolio project",
+    tags: ["Framer", "Next.js", "React", "Tailwind", "Vercel"],
+    imageUrl: portfolioImg,
+  },
 ] as const;
 
 export const skillsData = [
