@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import nasaImg from "@/public/NASACompetition.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import metilda from "@/public/MeTILDA.png"
 
@@ -79,13 +79,13 @@ export const projectsData = [
     tags: ["React", "Python", "Django", "PostgreSQL", "Firebase","Heroku"],
     imageUrl: metilda,
   },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
+  {
+    title: "NASA's Wildfire Climate Tech Challenge",
+    description:
+      "Proposed a solution to better manage wildfire by analyzing the region terrain which reduced the effective response time",
+    tags: ["Python", "FIRMS", "WorldWind"],
+    imageUrl: nasaImg,
+  },
   // {
   //   title: "Word Analytics",
   //   description:
