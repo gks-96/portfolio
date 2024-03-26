@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Gurkirat | Personal Portfolio',
-  description: 'Gurkirat is a backend java developer with 3 years of experiencd',
+  description: 'Gurkirat is a backend java developer with 3 years of experience in Java , Spring Boot, Apache Kafka',
 }
 
 export default function RootLayout({
