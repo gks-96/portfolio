@@ -1,10 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import nasaImg from "@/public/NASACompetition.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import metilda from "@/public/MeTILDA.png"
 import portfolioImg from "@/public/Portfolio.png";
 
@@ -38,13 +34,21 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer, Amazon",
+    location: "Bellevue, WA",
+    description:
+      "Working on Gen AI intitatives, designed Flink application,Oncall :)",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct, 2024 - Present",
+  },
+  {
     title: "Research Assistant",
     location: "Bothell,WA",
     description:
       "Responsible for cross colalboration with linguist researchers and leading project development",
     icon: React.createElement(CgWorkAlt),
     // LuGraduationCap
-    date: "May,2023- Present",
+    date: "May,2023- Jun,2024",
   },
   {
     title: "Software Developer, EdgeVerve",
@@ -98,19 +102,25 @@ export const projectsData = [
 
 export const skillsData = [
   "Java",
-  "SpringBoot",
-  "REST APIs",
-  "Apache Kafka",
-  "Spring Batch",
-  "Apache Storm",
   "Python",
-  "Django",
-  "PostgreSQL",
-  "Azure DevOps",
+  "JavaScript",
+  "TypeScript",
+  "SpringBoot",
+  "Apache Kafka",
+  "Apache Flink",
+  "Spring Batch",
   "React",
+  "React Native",
   "NextJs",
+  "AWS",
+  "Docker",
+  "Kubernetes",
+  "Azure DevOps",
+  "PostgreSQL",
+  "MySQL",
+  "Redis",
+  "RabbitMQ",
   "Firebase",
-  "Git",
-  "Google Analytics",
-  "Tableau"
+  "System Design",
+  "REST APIs",
 ] as const;

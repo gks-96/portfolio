@@ -8,6 +8,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa6";
+import { BsCalendar2Check } from "react-icons/bs";
 import { useInView } from 'react-intersection-observer';
 import { useActiveSectionContext } from '@/context/active-section-context';
 import { useEffect } from 'react';
@@ -151,6 +152,23 @@ export default function Intro() {
           dark:text-white/60"
           href="https://stackoverflow.com/users/15318227/gurkirat-singh-guliani"
         > <FaStackOverflow/>
+        </a>
+        <a  className="bg-white
+          p-4 text-gray-700 flex items-center gap-2 text-[1.35rem]
+          rounded-full
+          focus:scale-[1.15]
+          hover:scale-[1.15]
+          active:scale-105
+          transition
+          hover:text-gray-950
+          cursor-pointer
+          border border-black/10
+          dark:bg-white/10
+          dark:text-white/60"
+          href="https://calendly.com/gurkiratguliani"
+          target="_blank"
+          rel="noopener noreferrer"
+        > <BsCalendar2Check/>
         </a>
       </motion.div>
     </section>
