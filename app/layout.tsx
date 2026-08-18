@@ -7,6 +7,7 @@ import Footer from '@/components/footer';
 import ThemeSwitch from '@/components/theme-switch';
 import ThemeContextProvider from '@/context/theme-context';
 import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-9EYJCTFJ7L"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-9EYJCTFJ7L');
+        `}
+      </Script>
       {/* concatenating multiple classes */}
       <body className= { `${inter.className} bg-gray-50 text-gray-950 relative pt-28
       sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
